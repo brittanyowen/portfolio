@@ -3,7 +3,11 @@ import React from 'react';
 function Home(props) {
   return (
     <div>
-      Home screen
+      BRITTANY OWEN
+      <br></br>
+      full-stack
+      <br></br>
+      junior software engineer
     </div>
   );
 }
