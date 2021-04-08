@@ -1,13 +1,11 @@
-import React from 'react';
+import React from "react";
 
 function Home(props) {
   return (
-    <div>
-      BRITTANY OWEN
+    <div className="home">
+      <p className="name">Hi, I'm Brittany</p>
       <br></br>
-      full-stack
-      <br></br>
-      junior software engineer
+      full-stack // junior software engineer
     </div>
   );
 }

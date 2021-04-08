@@ -9,8 +9,9 @@ function Card(props) {
       <p>{project?.description}</p>
       <p>{project?.languages}</p>
       <div className="links">
-      <a href={project?.deployed_link} target="_blank" rel="noreferrer">SITE</a>
-      <a href={project?.repo_link} target="_blank" rel="noreferrer">CODE</a>
+        <a href={project?.deployed_link} target="_blank" rel="noreferrer">
+          <button>{project.title}</button></a>
+      <a href={project?.repo_link} target="_blank" rel="noreferrer"><button>Code</button></a>
 
       </div>
     </div>

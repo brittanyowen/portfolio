@@ -6,7 +6,9 @@ function Projects(props) {
   return (
     <div className="project-container">
       {projects.map((project) => (
+        <div key={project.title}>
         <Card project={project}/>
+        </div>
       ))}
     </div>
   );
