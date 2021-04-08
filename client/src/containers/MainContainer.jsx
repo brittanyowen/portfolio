@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import projects from "../projects.json"
 import Home from "../screens/Home";
 import About from "../screens/About";
 import Contact from "../screens/Contact";
@@ -15,7 +16,7 @@ function MainContainer(props) {
         <Contact />
       </Route>
       <Route path="/projects">
-        <Projects />
+        <Projects projects={projects}/>
       </Route>
       <Route path="/">
         <Home />

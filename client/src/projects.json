@@ -1,0 +1,35 @@
+[
+  {
+    "title": "On the Rocks", 
+    "image": "", 
+    "languages": "HTML, CSS, JavaScript", 
+    "description": "This frontend application has a responsive design that was built using flexbox and media queries. Users are able to browse the cocktail recipe directory and filter the recipes by spirit. The recipes are pulled form an external API, theCocktailDB.com", 
+    "deployed_link": "https://brittanyowen.github.io/on-the-rocks/", 
+    "repo_link": "https://github.com/brittanyowen/on-the-rocks"
+  }, 
+  {
+    "title": "Is It A Sandwich?", 
+    "image": "", 
+    "languages": "React with Axios, React Router, and React Minimal Pie Chart", 
+    "description": "Using an AirTable API, this frontend application tries to answer the question of what a sandwich is. Users can vote on if they consider certain items sandwiches and can add their comments to the discussion board on the home page. Results from user voting are displayed using React Minimal Pie Chart.", 
+    "deployed_link": "https://is-it-a-sandwich.netlify.app/", 
+    "repo_link": "https://github.com/brittanyowen/is-it-a-sandwich"
+  }, 
+  {
+    "title": "Reventa", 
+    "image": "", 
+    "languages": "React with Axios, React Router, and Styled Components, and Express/Mongoose with bcrypt for authentication", 
+    "description": "Reventa is a community furniture resale app and has assocation between users and their listings, as well as users and their wishlist. Users are able to add postings, edit/delete their own postings but not others. If visiting as a guest you can view postings but in order to see contact info for a seller or make a listing you must create an account or log into an existing account.", 
+    "deployed_link": "https://reventa.netlify.app/", 
+    "repo_link": "https://github.com/brittanyowen/reventa"
+  }, 
+  {
+    "title": "The Book Nook", 
+    "image": "", 
+    "languages": "React with Axios, React Router, and Styled Components, and Ruby on Rails with bcrypt and jwt for authentication", 
+    "description": "This full stack application has full CRUD with users being able to add, edit, and delete books and reviews of books. This app was designed as a way for users to find the next book they are going to read based off of other users' reviews. Guests are able to view the books but must log in or create an account in order to view the book's details and reviews and add books and reviews of their own.", 
+    "deployed_link": "https://the-book-nook.netlify.app/", 
+    "repo_link": "https://github.com/brittanyowen/the-book-nook"
+  }
+  
+]
