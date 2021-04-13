@@ -4,7 +4,7 @@ function Card(props) {
   const { project } = props;
   return (
     <div className="card">
-      {project?.image}
+      <img src={project?.image} alt={project?.title}/>
       <h1>{project?.title}</h1>
       <p>{project?.description}</p>
       <p>{project?.languages}</p>

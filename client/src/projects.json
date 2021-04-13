@@ -1,7 +1,7 @@
 [
   {
     "title": "On the Rocks", 
-    "image": "", 
+    "image": ["https://imgur.com/Ap4aFpd.png", "https://imgur.com/xP9eC6Y.png"], 
     "languages": "HTML, CSS, JavaScript", 
     "description": "This frontend application has a responsive design that was built using flexbox and media queries. Users are able to browse the cocktail recipe directory and filter the recipes by spirit. The recipes are pulled form an external API, theCocktailDB.com", 
     "deployed_link": "https://brittanyowen.github.io/on-the-rocks/", 
@@ -9,7 +9,7 @@
   }, 
   {
     "title": "Is It A Sandwich?", 
-    "image": "", 
+    "image": ["https://imgur.com/MGNvEet.png", "https://imgur.com/CrXGOkR.png", "https://imgur.com/DZfji0I.png", "https://imgur.com/wDT5QBy.png"], 
     "languages": "React with Axios, React Router, and React Minimal Pie Chart", 
     "description": "Using an AirTable API, this frontend application tries to answer the question of what a sandwich is. Users can vote on if they consider certain items sandwiches and can add their comments to the discussion board on the home page. Results from user voting are displayed using React Minimal Pie Chart.", 
     "deployed_link": "https://is-it-a-sandwich.netlify.app/", 
@@ -17,7 +17,7 @@
   }, 
   {
     "title": "Reventa", 
-    "image": "", 
+    "image": ["https://imgur.com/gaoWR4r.png", "https://imgur.com/GjDVJL8.png", "https://imgur.com/3O4CkvQ.png", "https://imgur.com/kSLn4PW.png"], 
     "languages": "React with Axios, React Router, and Styled Components, and Express/Mongoose with bcrypt for authentication", 
     "description": "Reventa is a community furniture resale app and has assocation between users and their listings, as well as users and their wishlist. Users are able to add postings, edit/delete their own postings but not others. If visiting as a guest you can view postings but in order to see contact info for a seller or make a listing you must create an account or log into an existing account.", 
     "deployed_link": "https://reventa.netlify.app/", 
@@ -25,7 +25,7 @@
   }, 
   {
     "title": "The Book Nook", 
-    "image": "", 
+    "image": ["https://imgur.com/pOy32Q5.png", "https://imgur.com/FzoXppL.png", "https://imgur.com/AaqfGi9.png", "https://imgur.com/HN3RA5T"], 
     "languages": "React with Axios, React Router, and Styled Components, and Ruby on Rails with bcrypt and jwt for authentication", 
     "description": "This full stack application has full CRUD with users being able to add, edit, and delete books and reviews of books. This app was designed as a way for users to find the next book they are going to read based off of other users' reviews. Guests are able to view the books but must log in or create an account in order to view the book's details and reviews and add books and reviews of their own.", 
     "deployed_link": "https://the-book-nook.netlify.app/", 
