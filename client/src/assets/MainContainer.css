@@ -22,3 +22,35 @@
 .name {
   font-size: 10vh;
 }
+
+h3 {
+  font-size: 30px; 
+  text-align: center;
+  margin-bottom: 40px; 
+}
+
+.about {
+  text-align: justify; 
+  margin: 0 5vw;
+  text-indent: 30px; 
+  line-height: 25px; 
+}
+
+.inline {
+  font-weight: bold;
+}
+
+.inline:hover {
+  text-decoration: underline; 
+}
+
+.icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.icons img {
+  height: 70px; 
+  margin: 10px;
+}
