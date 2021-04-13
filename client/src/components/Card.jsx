@@ -5,12 +5,12 @@ function Card(props) {
   return (
     <div className="card">
       <img src={project?.image} alt={project?.title}/>
-      <h1>{project?.title}</h1>
+      <h2>{project?.title}</h2>
       <p>{project?.description}</p>
-      <p>{project?.languages}</p>
+      <p><span className="languages">Languages and Frameworks: </span>{project?.languages}</p>
       <div className="links">
         <a href={project?.deployed_link} target="_blank" rel="noreferrer">
-          <button>{project.title}</button></a>
+          <button>{project.title} Deployed Site</button></a>
       <a href={project?.repo_link} target="_blank" rel="noreferrer"><button>Code</button></a>
 
       </div>

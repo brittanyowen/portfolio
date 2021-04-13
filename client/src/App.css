@@ -12,3 +12,18 @@ a {
 a:visited {
   color: #52796F;
 }
+
+button {
+  background-color: #000000;
+  color: #84A98C;
+  font-weight: bold; 
+  padding: 5px; 
+  margin: 3px;
+  font-family: 'Open Sans', sans-serif;
+  border: none; 
+}
+
+button:hover {
+  color: #000000;
+  background-color: #84A98C;
+}
