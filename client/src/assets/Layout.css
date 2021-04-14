@@ -1,15 +1,16 @@
 .layout {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: flex;
+  background-color: rgba(245, 245, 245, 0.7);
 }
 
 .layout-children {
-  display:flex;
   flex-direction: column;
   width: 90vw;
   margin-left: 10vw;
-  justify-content: center;
+  margin-top: 20vh; 
+  min-height: 100vh;
 }
 
 nav {
@@ -39,10 +40,14 @@ nav a:hover {
   margin-top: 50px; 
 }
 
-.logo {
+/* .logo {
   color: #2F3E46;
   font-family: 'Gugi', cursive;
   font-size: max(20vh);
   margin-top: 20px;
-}
+} */
 
+.logo img {
+  width: 9vw;
+  margin-top: 5px;
+}

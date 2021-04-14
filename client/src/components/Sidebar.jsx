@@ -5,7 +5,11 @@ function Sidebar(props) {
   return (
     <div className="sidebar">
       <div className="logo">
-        <Link to="/">B</Link>
+        {/* <Link to="/">B</Link> */}
+        <Link to="/">
+          <img src="https://imgur.com/KXfegqy.png" alt="personal logo" />
+        </Link>
+        
       </div>
       <a
         href="https://www.linkedin.com/in/bnowen/"

@@ -8,7 +8,7 @@ function Layout(props) {
       <Sidebar />
       <div className="layout-children">
         <Nav />
-        <div>{props.children}</div>
+        {props.children}
       </div>
     </div>
   );
