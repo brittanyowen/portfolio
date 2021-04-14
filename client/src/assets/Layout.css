@@ -90,7 +90,7 @@ nav a:hover {
     position: fixed;
     right: 20px;
     top: 20px;
-    z-index: 10;
+    z-index: 11;
     cursor: pointer;
     background-color: transparent;
     border: 0px transparent;
@@ -98,6 +98,10 @@ nav a:hover {
 
   .burger:hover {
     background-color: transparent;
+  }
+
+  .burger svg {
+    z-index: 11;
   }
 
   .menuNav {
