@@ -1,10 +1,23 @@
 import React from "react";
+import SimpleImageSlider from "react-simple-image-slider"
 
 function Card(props) {
   const { project } = props;
+  const images = project?.image
+
   return (
     <div className="card">
-      <img src={project?.image} alt={project?.title} />
+      {/* <img src={project?.image} alt={project?.title} /> */}
+      <SimpleImageSlider
+        width="80vw"
+        height="min(calc(80vw * .68), 475px)"
+        images={images}
+        navStyle={1}
+        navMargin={0}
+        slideDuration={0.5}
+        showNavs={true}
+        navSize={40}
+      />
       <h2>{project?.title}</h2>
       <p>{project?.description}</p>
       <p>
