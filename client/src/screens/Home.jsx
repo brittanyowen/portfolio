@@ -1,6 +1,6 @@
 import React from "react";
-import { ChevronsRight } from "react-feather";
-import {Link} from "react-router-dom"
+// import { ChevronsRight } from "react-feather";
+// import {Link} from "react-router-dom"
 
 function Home(props) {
   return (
