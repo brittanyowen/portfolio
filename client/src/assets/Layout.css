@@ -9,8 +9,11 @@
   flex-direction: column;
   width: 90vw;
   margin-left: 10vw;
-  margin-top: 20vh;
   min-height: 100vh;
+}
+
+.home, .about, .project-container, .contact {
+  margin-top: 20vh;
 }
 
 nav {
@@ -44,13 +47,6 @@ nav a:hover {
   width: 30px;
   margin-top: 50px;
 }
-
-/* .logo {
-  color: #2F3E46;
-  font-family: 'Gugi', cursive;
-  font-size: max(20vh);
-  margin-top: 20px;
-} */
 
 .logo img {
   min-width: 100px;
@@ -126,8 +122,6 @@ nav a:hover {
   }
 
   ul img {
-    width: 30px;
-    height: auto;
-    margin: 0px;
+    height: 30px;
   }
 }

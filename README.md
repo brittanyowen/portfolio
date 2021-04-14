@@ -9,10 +9,10 @@ Feel free to take a look at my code and reach out if you have any questions.
 
 ## Social Media and Contact Information
 
-[Portfolio]() | 
+[Portfolio](brittanyowen.com) | 
 [LinkedIn](https://www.linkedin.com/in/bnowen/) | 
 [GitHub](https://github.com/brittanyowen) | 
-[Resume]()
+[Resume](https://drive.google.com/file/d/1k9jGTJ30GeF9Y9OepzjbHQKJCsup8V-o/view)
 
 owen.brittany@gmail.com
 
