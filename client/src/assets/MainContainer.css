@@ -68,3 +68,9 @@ h2 {
 .languages {
   font-weight: bold;
 }
+
+@media screen and (max-width: 700px) {
+  .card img {
+    height: auto;
+  }
+}
