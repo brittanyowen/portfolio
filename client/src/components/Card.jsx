@@ -7,7 +7,6 @@ function Card(props) {
 
   return (
     <div className="card">
-      {/* <img src={project?.image} alt={project?.title} /> */}
       <SimpleImageSlider
         width="80vw"
         height="min(calc(80vw * .68), 475px)"

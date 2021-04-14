@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Linkedin, GitHub} from "react-feather"
 
 function Sidebar(props) {
   return (
     <div className="sidebar">
       <div className="logo">
-        {/* <Link to="/">B</Link> */}
         <Link to="/">
           <img src="https://imgur.com/KXfegqy.png" alt="personal logo" />
         </Link>
@@ -16,15 +16,14 @@ function Sidebar(props) {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="https://imgur.com/mUm6ZhK.png" alt="LinkedIn Logo" />
+          <Linkedin />
         </a>
-        <br></br>
         <a
           href="https://github.com/brittanyowen"
           target="_blank"
           rel="noreferrer"
         >
-          <img src="https://imgur.com/w6ZtRla.png" alt="GitHub Logo" />
+          <GitHub />
         </a>
       </div>
     </div>

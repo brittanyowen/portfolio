@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { GitHub, Linkedin, Menu, X } from "react-feather";
 
 // hamburger menu tutorial: https://ibaslogic.com/how-to-add-hamburger-menu-in-react/
 
@@ -18,19 +19,7 @@ function Nav(props) {
     <nav>
       <div className="burger-menu">
         <button className="burger" onClick={handleToggle}>
-          {navOpen ? (
-            <img
-              src="https://imgur.com/ndd808k.png"
-              alt="burger menu"
-              style={{ height: "30px" }}
-            />
-          ) : (
-            <img
-              src="https://imgur.com/RNCJXa9.png"
-              alt="burger menu"
-              style={{ height: "30px" }}
-            />
-          )}
+          {navOpen ? <X /> : <Menu />}
         </button>
         <ul className={`menuNav ${navOpen ? "showMenu" : ""}`}>
           <Link
@@ -72,14 +61,14 @@ function Nav(props) {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="https://imgur.com/mUm6ZhK.png" alt="LinkedIn Logo" />
+            <Linkedin />
           </a>
           <a
             href="https://github.com/brittanyowen"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="https://imgur.com/w6ZtRla.png" alt="GitHub Logo" />
+            <GitHub />
           </a>
         </ul>
       </div>
