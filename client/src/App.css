@@ -1,29 +1,30 @@
 .App {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  color: #2F3E46;
+  font-family: "Open Sans", sans-serif;
+  color: #2f3e46;
 }
 
 a {
-  color: #52796F;
+  color: #52796f;
   text-decoration: none;
 }
 
 a:visited {
-  color: #52796F;
+  color: #52796f;
 }
 
 button {
-  background-color: #000000;
-  color: #84A98C;
-  font-weight: bold; 
-  padding: 5px; 
+  font-size: 100%;
+  background-color: transparent;
+  color: #84a98c;
+  font-weight: bold;
+  padding: 5px;
   margin: 3px;
-  font-family: 'Open Sans', sans-serif;
-  border: none; 
+  font-family: "Open Sans", sans-serif;
+  border: none;
 }
 
 button:hover {
   color: #000000;
-  background-color: #84A98C;
+  background-color: #84a98c;
 }
