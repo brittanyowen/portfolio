@@ -19,7 +19,7 @@ function Nav(props) {
     <nav>
       <div className="burger-menu">
         <button className="burger" onClick={handleToggle}>
-          {navOpen ? <X /> : <Menu />}
+          {navOpen ? <X id="exit"/> : <Menu />}
         </button>
         <ul className={`menuNav ${navOpen ? "showMenu" : ""}`}>
           <Link

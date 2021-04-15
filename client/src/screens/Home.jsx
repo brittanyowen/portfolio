@@ -7,7 +7,7 @@ function Home(props) {
     <div className="home">
       <p className="name">Hi, I'm Brittany</p>
       <br></br>
-      full-stack software engineer | environmentalist
+      full-stack software engineer | environmentalist | book worm
       <br></br>
       {/* <br></br>
       <div>

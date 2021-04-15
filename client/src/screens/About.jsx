@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function About(props) {
   return (
     <div className="about">
-      <h3>I'm Brittany, thanks for stopping by!</h3>
+      <h3>A little about me: </h3>
       <p>
         I am a full-stack software engineer with prior experience in
         administrative support, project assistance, program planning, and

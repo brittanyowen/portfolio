@@ -28,3 +28,48 @@ button:hover {
   color: #000000;
   background-color: #84a98c;
 }
+
+#send:hover {
+  background-color: transparent;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.inline {
+  font-weight: bold;
+}
+
+.inline:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.icons img {
+  height: 70px;
+  margin: 10px;
+}
+
+.links {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 4.5vw;
+  }
+}

@@ -1,0 +1,148 @@
+/* nav */
+
+nav {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  z-index: 10;
+}
+
+nav a {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.burger-menu {
+  display: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* sidebar */
+
+.sidebar {
+  position: fixed;
+  min-width: 110px;
+  width: 10vw;
+  height: 100%;
+}
+
+.logo img {
+  min-width: 100px;
+  width: 9vw;
+  margin-top: 5px;
+  z-index: 10;
+}
+
+.icon-links {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-evenly; 
+  height: 200px; 
+}
+
+.icon-links svg:hover {
+  color: black;
+}
+
+/* card */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  width: 80vw;
+  max-width: 700px;
+  margin: 0 auto 10vh;
+  text-align: left;
+  line-height: 25px;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+
+.card div {
+  max-width: 700px;
+}
+
+.card p {
+  font-size: 15px;
+  padding: 7px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 700px) {
+  .card p {
+    font-size: 12px;
+  }
+  
+  .horizontal-nav {
+    display: none;
+  }
+
+  .burger-menu {
+    display: inherit;
+  }
+
+  .icon-links {
+    display: none;
+  }
+  
+  /* hamburger menu */
+
+  .burger {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 12;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px transparent;
+  }
+
+  .burger:hover {
+    background-color: transparent;
+  }
+
+  #exit {
+    z-index: 15;
+  }
+
+  .menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: #2f3e46;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    max-width: 60vw;
+    transition: width 1s, height 1s;
+    transform: translate3d(12px, 0%, 3em);
+    z-index: 9;
+  }
+
+  .menuNav.showMenu {
+    width: 100%;
+  }
+
+  nav {
+    margin-top: 60px;
+    z-index: 10;
+  }
+
+  nav a {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    padding-top: 70px;
+  }
+}
+
