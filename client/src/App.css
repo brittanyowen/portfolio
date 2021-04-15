@@ -45,9 +45,6 @@ h2 {
   margin: 10px;
 }
 
-.inline {
-  font-weight: bold;
-}
 
 .inline:hover {
   text-decoration: underline;

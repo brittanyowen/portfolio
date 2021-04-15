@@ -1,5 +1,10 @@
+.home {
+  margin-top: 20vh;
+}
+
 .project-container {
   flex-direction: column;
+  margin-top: 20vh;
 }
 
 .name {
@@ -9,13 +14,14 @@
 .about {
   font-weight: bold;
   text-align: justify;
-  margin: 0 5vw;
+  margin: 20vh 5vw 0 5vw;
   text-indent: 30px;
   line-height: 25px;
 }
 
 .contact {
   font-weight: bold;
+  margin-top: 20vh;
 }
 
 .contact p {
@@ -45,6 +51,7 @@ form {
 form div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
 }
 
@@ -63,4 +70,20 @@ label {
   width: 20%;
 }
 
+.text-box {
+  align-items: flex-start;
+}
 
+@media screen and (max-width: 500px) {
+  label {
+    font-size: 3vw;
+  }
+
+  .name {
+    font-size: 12vw;
+  }
+
+  .home:last-child {
+    font-size: 3.25vw;
+  }
+}

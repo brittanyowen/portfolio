@@ -20,7 +20,7 @@ function About(props) {
         preschool and organizing recreational community programs. I recently
         completed a 12-week full-time software engineering course through
         General Assembly. Throughout this course, I completed 420 hours of
-        instruction and developed 4 web application. These projects can be found
+        instruction and developed 4 web applications. These projects can be found
         in the{" "}
         <Link to="/projects" className="inline">
           projects
@@ -33,6 +33,7 @@ function About(props) {
         but am eager to expand my skills and look forward to continuing to grow
         as a developer:
       </p>
+      <br></br>
       <div className="icons">
         <img
           src="https://imgur.com/FzkawUh.png"

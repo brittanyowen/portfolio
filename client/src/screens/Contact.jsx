@@ -20,7 +20,7 @@ function Contact(props) {
           <label htmlFor="email">Email:</label>
           <input type="text" name="email" />
         </div>
-        <div>
+        <div className="text-box">
           <label htmlFor="message">Message:</label>
           <textarea type="text" name="message" rows={10} />
         </div>

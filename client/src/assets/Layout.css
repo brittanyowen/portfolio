@@ -12,13 +12,6 @@
   min-height: 100vh;
 }
 
-.home,
-.about,
-.project-container,
-.contact {
-  margin-top: 20vh;
-}
-
 /* media queries */
 
 @media screen and (max-width: 700px) {
