@@ -19,9 +19,12 @@ function Nav(props) {
     <nav>
       <div className="burger-menu">
         <button className="burger" onClick={handleToggle}>
-          {navOpen ? <X id="exit"/> : <Menu />}
+          {navOpen ? "" : <Menu />}
         </button>
         <ul className={`menuNav ${navOpen ? "showMenu" : ""}`}>
+          <button className="burger" id="exit" onClick={handleToggle}>
+            {navOpen ? <X /> : ""}
+          </button>
           <Link
             to="/about"
             activeClassName="active-link"
@@ -47,7 +50,7 @@ function Nav(props) {
             Contact
           </Link>
           <a
-            href="https://drive.google.com/file/d/1k9jGTJ30GeF9Y9OepzjbHQKJCsup8V-o/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LTyt83rbaQEIcBi2Ha5sP2wzx2Jkq2n2/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             activeClassName="active-link"
@@ -78,7 +81,7 @@ function Nav(props) {
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
         <a
-          href="https://drive.google.com/file/d/1k9jGTJ30GeF9Y9OepzjbHQKJCsup8V-o/view?usp=sharing"
+          href="https://drive.google.com/file/d/1LTyt83rbaQEIcBi2Ha5sP2wzx2Jkq2n2/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

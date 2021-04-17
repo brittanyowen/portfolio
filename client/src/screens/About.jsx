@@ -12,7 +12,7 @@ function About(props) {
       </p>
       <br></br>
       <p>
-        I recieved my bachelors degree in Environmental Studies at DePaul
+        I recieved my Bachelor's Degree in Environmental Studies at DePaul
         University in 2013 and continue to be passionate about the environment
         and sustainability. Between then and now, I have had the pleasure of
         working with diverse clientele in a variety of industries from
