@@ -4,11 +4,16 @@ import { Link } from "react-router-dom";
 function About(props) {
   return (
     <div className="about">
-      <h3>A little about me: </h3>
+      <h3>About Me: </h3>
       <p>
         I am a full-stack software engineer with prior experience in
         administrative support, project assistance, program planning, and
         customer service.
+      </p>
+      <br></br>
+      <p>
+        I am currently employed as an Application Developer at the Shedd
+        Aquarium.
       </p>
       <br></br>
       <p>
@@ -20,8 +25,8 @@ function About(props) {
         preschool and organizing recreational community programs. I recently
         completed a 12-week full-time software engineering course through
         General Assembly. Throughout this course, I completed 420 hours of
-        instruction and developed 4 web applications. These projects can be found
-        in the{" "}
+        instruction and developed 4 web applications. These projects can be
+        found in the{" "}
         <Link to="/projects" className="inline">
           projects
         </Link>{" "}
