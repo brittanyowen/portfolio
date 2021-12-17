@@ -45,7 +45,6 @@ h2 {
   margin: 10px;
 }
 
-
 .inline:hover {
   text-decoration: underline;
 }
@@ -63,6 +62,19 @@ h2 {
 
 .links {
   text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: column wrap;
+  height: 12vh;
+  margin-top: 3vh;
+}
+
+li {
+  list-style-type: circle;
+  margin-right: 0px;
+  list-style-position: inside;
 }
 
 @media screen and (max-width: 700px) {

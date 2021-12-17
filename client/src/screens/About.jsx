@@ -8,12 +8,8 @@ function About(props) {
       <p>
         I am a full-stack software engineer with prior experience in
         administrative support, project assistance, program planning, and
-        customer service.
-      </p>
-      <br></br>
-      <p>
-        I am currently employed as an Application Developer at the Shedd
-        Aquarium.
+        customer service. I am currently employed as an Application Developer at
+        the Shedd Aquarium.
       </p>
       <br></br>
       <p>
@@ -34,23 +30,26 @@ function About(props) {
       </p>
       <br></br>
       <p>
-        I currently work with the following languages, frameworks, and programs
-        but am eager to expand my skills and look forward to continuing to grow
-        as a developer:
+        I have experience working with the following languages, frameworks, and
+        programs but am eager to expand my skills and look forward to continuing
+        to grow as a developer:
       </p>
-      <br></br>
-      <div className="icons">
-        <img
-          src="https://imgur.com/FzkawUh.png"
-          alt="HTML, CSS, Javascript logos"
-        />
-        <img src="https://imgur.com/xM3Y0xt.png" alt="MERN logo" />
-        <img src="https://imgur.com/RgKoW9W.png" alt="Git logo" />
-        <img src="https://imgur.com/2yCG45b.png" alt="Ruby on Rails logo" />
-        <img src="https://imgur.com/PJfS1k1.png" alt="Mongoose logo" />
-        <img src="https://imgur.com/0mVr83u.png" alt="PostgreSQL logo" />
-        <img src="https://imgur.com/frnX8x4.png" alt="Adobe XD logo" />
-      </div>
+      <ul>
+        <li>HTML</li>
+        <li>CSS and Sass</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Ruby on Rails</li>
+        <li>SQL</li>
+        <li>Express/Mongoose</li>
+        <li>Adobe XD and Figma</li>
+        <li>Git and GitHub</li>
+        <li>RestAPIs</li>
+        <li>rSpec</li>
+        <li>CircleCI</li>
+        <li>Asana and JIRA</li>
+        <li>Node and npm libraries</li>
+      </ul>
     </div>
   );
 }
