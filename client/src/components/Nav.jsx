@@ -81,7 +81,7 @@ function Nav(props) {
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
         <a
-          href="https://drive.google.com/file/d/1LTyt83rbaQEIcBi2Ha5sP2wzx2Jkq2n2/view?usp=sharing"
+          href="https://drive.google.com/file/d/1xCnzrcX6-jExdOFaotjHJGWuRDSwK3q6/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
