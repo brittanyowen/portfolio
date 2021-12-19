@@ -64,11 +64,12 @@ h2 {
   text-align: center;
 }
 
-ul {
+.languages {
   display: flex;
   flex-flow: column wrap;
-  height: 12vh;
-  margin-top: 3vh;
+  height: 35vh;
+  margin: 3vh auto;
+  width: 80vw;
 }
 
 li {
@@ -80,5 +81,11 @@ li {
 @media screen and (max-width: 700px) {
   h2 {
     font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .languages {
+    height: unset;
   }
 }

@@ -141,7 +141,7 @@ nav a:hover {
     justify-content: center;
   }
 
-  ul {
+  ul:not(.languages ul) {
     padding-top: 70px;
   }
 }

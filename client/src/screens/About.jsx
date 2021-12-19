@@ -34,22 +34,26 @@ function About(props) {
         programs but am eager to expand my skills and look forward to continuing
         to grow as a developer:
       </p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS and Sass</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Ruby on Rails</li>
-        <li>SQL</li>
-        <li>Express/Mongoose</li>
-        <li>Adobe XD and Figma</li>
-        <li>Git and GitHub</li>
-        <li>RestAPIs</li>
-        <li>rSpec</li>
-        <li>CircleCI</li>
-        <li>Asana and JIRA</li>
-        <li>Node and npm libraries</li>
-      </ul>
+      <div class="languages">
+        <ul>
+          <li>HTML</li>
+          <li>CSS and Sass</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Ruby on Rails</li>
+          <li>SQL</li>
+          <li>Express/Mongoose</li>
+        </ul>
+        <ul>
+          <li>Adobe XD and Figma</li>
+          <li>Git and GitHub</li>
+          <li>RestAPIs</li>
+          <li>rSpec</li>
+          <li>CircleCI</li>
+          <li>Asana and JIRA</li>
+          <li>Node and npm libraries</li>
+        </ul>
+      </div>
     </div>
   );
 }
