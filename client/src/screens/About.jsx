@@ -50,7 +50,7 @@ function About(props) {
           <li>RestAPIs</li>
           <li>rSpec</li>
           <li>CircleCI</li>
-          <li>Asana and JIRA</li>
+          <li>Confluence and JIRA</li>
           <li>Node and npm libraries</li>
         </ul>
       </div>
